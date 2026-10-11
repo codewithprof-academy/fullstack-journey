@@ -9,10 +9,10 @@ owner: Salvaton Lloyd Stanley-Kemuel
 
 **CodeWithProf - NextGen Web, Cloud & AI Engineering Bootcamp**
 
-The Explorer track is for ages **9–14** within the 16-week Code with Prof cohort. This folder is the track index.
+The Explorer track is for ages **9–14**. Choose a week below to find its lessons, activities, and demos.
 
 | Week | Focus | Start here |
 | --- | --- | --- |
 | 01 | Software teams and the internet | [Week 01 guide](Week%2001/README.md) |
 
-Future weeks will be listed here when their materials are added. The [cohort overview](../README.md) describes the repository structure.
+More weeks will appear here as the cohort progresses. Visit the [cohort home](../README.md) for an overview of the full journey.

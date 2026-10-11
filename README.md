@@ -7,7 +7,7 @@ owner: Salvaton Lloyd Stanley-Kemuel
 
 # CodeWithProf - NextGen Web, Cloud & AI Engineering Bootcamp - (Explorers) Cohort 1
 
-This repository holds the **Explorer** track for ages **9–14** in a 16-week cohort. Each week has its own folder so students and instructors can find the reading, slides, activities, and demos from one entry point.
+Welcome to the **Explorers** learning journey for ages **9–14**. Over 16 weeks, learners will explore how websites, cloud technology, and AI work through reading, class activities, and hands-on demos.
 
 **Owner:** Salvaton Lloyd Stanley-Kemuel
 
@@ -16,10 +16,10 @@ This repository holds the **Explorer** track for ages **9–14** in a 16-week co
 | Week | Topic | Materials |
 | --- | --- | --- |
 | 01 | Welcome to technology and how the internet works | [Open Week 01](Explorer/Week%2001/README.md) |
-| 02–16 | Added as the cohort progresses | Links will appear when the week folders exist |
+| 02–16 | More topics to come | Materials will appear here as each week begins |
 
-Start with the [Explorer track](Explorer/README.md) for the learning path. Week 01 introduces software engineering, technology roles, DNS, URLs, HTTP, APIs, cloud computing, and safe use of AI. It uses a fictional learning site called StudyHub throughout.
+Start with the [Explorer track](Explorer/README.md) to see the learning path. Week 01 introduces software engineering, technology roles, DNS, URLs, HTTP, APIs, cloud computing, and safe use of AI. Activities use a fictional learning site called StudyHub throughout.
 
-## Adding a week
+## How to use the weekly materials
 
-Create `Explorer/Week NN/README.md` with links to every file in that week, then add one row to the table above. Keep links relative to the Markdown file. Add a short run or use instruction beside every demo. Only link to files that are present in the repository.
+Open a week from the table above. Each weekly guide brings together the reading notes, slides, activities, and demos for that part of the course. Follow the guide in order, or return to it whenever you need to find a resource.

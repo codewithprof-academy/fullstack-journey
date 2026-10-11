@@ -35,6 +35,6 @@ This is the first week of the 16-week Explorer cohort for ages **9–14**. The f
 | Demos | [Demo index](demos/README.md) | Activities D1–D5 |
 | Lab | [Lab index](lab/README.md) | Printable or digital starters |
 
-## Materials available now
+## Hands-on materials
 
-All linked files above are in this repository. The reading notes mention a separate *Student Practical Guide*, but that file is not present. The assignment and lab starters here provide the practical work for this week. Python demo scripts are retained as later previews; do not run them for Week 01 testing.
+Use the assignment and lab starters for this week's practical work. If the reading notes refer to a *Student Practical Guide*, the activities linked on this page cover the hands-on tasks. Week 01 activities use a browser and everyday tools; no Python is needed.

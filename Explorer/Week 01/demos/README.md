@@ -13,7 +13,7 @@ version: 1
 
 **CodeWithProf - NextGen Web, Cloud & AI Engineering Bootcamp - (Explorers) Cohort 1**
 
-Run these in order. A browser is enough for D1–D4; D3 needs internet access for a live lookup. D5 uses browser developer tools. Python scripts in D3 and D4 are previews for a later week and are not required or used for Week 01 testing.
+Try these activities in order. A browser is enough for D1–D4; D3 needs internet access for a live lookup. D5 uses browser developer tools. No Python is needed for Week 01.
 
 | Demo | Activity | What to use |
 | --- | --- | --- |

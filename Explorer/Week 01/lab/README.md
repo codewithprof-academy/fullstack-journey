@@ -18,4 +18,4 @@ version: 1
 | W01-EXP-L2 | [DNS phone book and URL detective worksheet](dns-phone-book-worksheet.md) | 40 min |
 | W01-EXP-L3 | [Tech careers map and internet poster starter](careers-map-and-internet-poster.md) | 45 min |
 
-No installs are needed. Open the [URL Explorer](../demos/d2-url-explorer/index.html) in a browser. Print the worksheets or share the Markdown files. Instructor answer files and student PDF versions are not currently in this repository.
+No installs are needed. Open the [URL Explorer](../demos/d2-url-explorer/index.html) in a browser. You can print the worksheets or complete them digitally.

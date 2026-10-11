@@ -33,4 +33,4 @@ Look for `Address:` lines in the answer. The first address may belong to the DNS
 
 ## Later coding preview
 
-The optional [Python DNS lookup script](dns_lookup.py) is retained for a later coding week. Do not run it for the Week 01 activity or testing.
+The optional [Python DNS lookup script](dns_lookup.py) is a preview for a later coding week. Use the browser activity or terminal option above for Week 01.

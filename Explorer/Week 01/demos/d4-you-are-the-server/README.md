@@ -28,6 +28,6 @@ Project the simulator and ask students to predict the response before each click
 | `/api/time` | 200 JSON | An **API** answers programs with data, not pages |
 | `/does-not-exist` | 404 | Status codes are the server's way of saying how it went |
 
-**Later coding preview:** [`tiny_server.py`](tiny_server.py) is an example of a real local HTTP server for a later week. Do not run it for this Week 01 activity or testing. The simulator is a model of the exchange and does not make HTTP requests.
+**Later coding preview:** [`tiny_server.py`](tiny_server.py) is an example of a real local HTTP server for a later week. Use the browser simulator for Week 01. It models the exchange without making HTTP requests.
 
 **Cloud link (LO5):** "A real server can run on a laptop or a rented computer in a data centre. The location changes, but the request and response idea stays the same."

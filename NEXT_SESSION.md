@@ -33,6 +33,7 @@ Start with [`AGENTS.md`](AGENTS.md), then inspect the current files before editi
 - The reading PDF mentions a separate *Student Practical Guide* that is not in this repository. The current assignment and lab files supply Week 01 practice; add and link the guide only if it becomes available.
 - If the DNS browser activity is changed, verify that an actual participant can see an IP address on a network with access to Google Public DNS. Keep the `nslookup` alternative.
 - Recheck local links and owner values after future additions. Update this handoff with new work and unresolved items.
+- Keep the learner-facing READMEs focused on how to use the course. Put file-maintenance instructions in `AGENTS.md` or this handoff instead of the public course guides.
 
 ## Git and session continuity
 
