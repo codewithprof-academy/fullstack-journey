@@ -1,0 +1,20 @@
+# Generated local graph index.
+graft/
+
+# Operating system and editor files.
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.~*.pptx
+~$*.pptx
+
+# Python caches and local environments (the Week 01 scripts remain tracked).
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

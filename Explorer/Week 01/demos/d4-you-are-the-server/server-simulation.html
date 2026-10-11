@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Request and response simulator · Week 01</title>
+  <style>
+    body { font: 1rem/1.5 system-ui, sans-serif; max-width: 52rem; margin: 2rem auto; padding: 0 1rem; color: #172235; }
+    button { font: inherit; margin: .25rem .5rem .25rem 0; padding: .5rem .75rem; cursor: pointer; }
+    pre { white-space: pre-wrap; overflow-wrap: anywhere; background: #eef3f8; padding: 1rem; border-radius: .4rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; }
+    .note { border-left: .25rem solid #3669a2; padding-left: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>You are the server</h1>
+  <p>This offline simulator shows a simplified HTTP conversation. Choose a route, predict the status, then compare the request and response.</p>
+  <div id="routes" aria-label="Choose a route">
+    <button type="button" data-route="/">Home page</button>
+    <button type="button" data-route="/about">About page</button>
+    <button type="button" data-route="/api/time">API data</button>
+    <button type="button" data-route="/does-not-exist">Missing page</button>
+  </div>
+  <div class="grid">
+    <section><h2>Browser request</h2><pre id="request" aria-live="polite"></pre></section>
+    <section><h2>Server response</h2><pre id="response" aria-live="polite"></pre></section>
+  </div>
+  <p class="note">This page runs from a local file. The exchange shown above is a teaching model; clicking the buttons does not contact a real server.</p>
+  <p><a href="../README.md">Back to Week 01 demos</a></p>
+  <script>
+    const examples = {
+      "/": [200, "text/html", "<h1>Welcome to StudyHub</h1>"],
+      "/about": [200, "text/html", "<h1>About StudyHub</h1>"],
+      "/api/time": [200, "application/json", '{"message":"Data for another program"}'],
+      "/does-not-exist": [404, "text/html", "<h1>Page not found</h1>"]
+    };
+    function show(route) {
+      const [status, type, body] = examples[route];
+      document.getElementById("request").textContent = `GET ${route} HTTP/1.1\nHost: studyhub.example`;
+      document.getElementById("response").textContent = `HTTP/1.1 ${status} ${status === 200 ? "OK" : "Not Found"}\nContent-Type: ${type}\n\n${body}`;
+    }
+    document.getElementById("routes").addEventListener("click", event => {
+      const button = event.target.closest("button[data-route]");
+      if (button) show(button.dataset.route);
+    });
+    show("/");
+  </script>
+</body>
+</html>
